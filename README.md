@@ -22,24 +22,23 @@
 local Nyx = {
     name = "Nyx Development",
     focus = {
-        "RedM Development",
-        "FiveM Development",
-        "Discord Systems",
-        "Backend Development"
+        "Advanced RedM systems",
+        "Persistent world simulation",
+        "VORP-compatible resources",
+        "Secure backend architecture"
     },
 
     currentlyBuilding = {
-        "Advanced RedM gameplay systems",
-        "VORP resources",
-        "Discord bots",
-        "Modular server architecture"
+        "vorp_diseases",
+        "vorp_outbreaks",
+        "Nyx_Core"
     },
 
-    philosophy = "Build systems that feel alive."
+    philosophy = "A disease should not simply happen to a player. It should happen to the world."
 }
-````
+```
 
-> Creating immersive, scalable and production-ready systems for gaming communities.
+> NyxStudios-GR builds production-ready RedM systems where player health, settlement conditions and world events create persistent roleplay consequences.
 
 ---
 
@@ -82,84 +81,54 @@ local Nyx = {
 <table>
 <tr>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🦠 vorp_diseases
 
-Advanced disease, infection and outbreak system designed for serious RedM roleplay servers.
+Persistent character health for serious RedM roleplay.
 
-**Features**
-
-* Dynamic diseases
-* Persistent infections
-* Epidemic simulation
-* Environmental contamination
-* Doctor gameplay
-* Terminal illnesses
-* VORP integration
-* oxmysql persistence
+- Exposure and incubation
+- Multi-stage symptoms
+- Treatments and immunity
+- Terminal illnesses
+- SQL-backed progression
+- Secure exports and events
 
 `Lua` `RedM` `VORP` `oxmysql`
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
+
+### 🌍 vorp_outbreaks
+
+A living epidemic simulation built around settlements—not random event timers.
+
+- Environmental contamination
+- NPC and player transmission
+- Inter-town spread
+- Quarantines and shortages
+- Investigation and recovery
+- Persistent outbreak history
+
+`Lua` `RedM` `Simulation` `oxmysql`
+
+</td>
+
+<td width="33%" valign="top">
 
 ### ⚙️ Nyx_Core
 
-Modular foundation for creating scalable RedM systems under the Nyx ecosystem.
+A modular, server-authoritative RedM foundation for the Nyx ecosystem.
 
-**Designed around**
+- Persistent characters and economy
+- Jobs, inventory and needs
+- Validated callbacks and events
+- Greek and English locales
+- VORP-style compatibility API
+- Disease and outbreak adapters
 
-* Modular architecture
-* Server-authoritative logic
-* Performance
-* Expandability
-* Clean APIs
-* Developer-friendly systems
-
-`Lua` `RedM` `Backend`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### 🤖 Discord Systems
-
-Advanced Discord bots designed for gaming communities and server management.
-
-**Systems**
-
-* Slash commands
-* Interactive components
-* Databases
-* Economy systems
-* Community tools
-* Automation
-
-`TypeScript` `Node.js` `Discord.js`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🌎 Immersive RP Systems
-
-Gameplay systems focused on making roleplay worlds feel dynamic and alive.
-
-**Focus**
-
-* Living-world simulation
-* Player-driven events
-* Economy interaction
-* Dynamic environments
-* Persistent consequences
-
-`Game Design` `Lua` `Architecture`
+`Lua` `RedM` `Backend` `oxmysql`
 
 </td>
 
